@@ -1,0 +1,80 @@
+{
+  "run_scope": "full dataset",
+  "transactions": 31788324,
+  "customers": 1362281,
+  "articles": 105542,
+  "styles": 47224,
+  "date_min": "2018-09-20",
+  "date_max": "2020-09-22",
+  "sales_trends": {
+    "average_daily_transactions": 43308.34,
+    "peak_day": "2019-09-28",
+    "peak_day_transactions": 198622,
+    "busiest_calendar_month": "Jun",
+    "busiest_calendar_month_avg_daily_transactions": 61178.48
+  },
+  "customer_behavior": {
+    "median_transactions_per_customer": 9.0,
+    "p90_transactions_per_customer": 60.0,
+    "p99_transactions_per_customer": 187.0,
+    "repeat_customer_share": 0.903460446119413,
+    "single_transaction_customer_share": 0.09653955388058705,
+    "channel_share": {
+      "1": 0.2959722569834132,
+      "2": 0.7040277430165869
+    }
+  },
+  "product_behavior": {
+    "median_units_per_style": 95.0,
+    "p90_units_per_style": 1398.0,
+    "top_1pct_style_sales_share": 0.301989529237213,
+    "top_style_id": "706016",
+    "top_style_name": "Jade HW Skinny Denim TRS",
+    "top_style_units": 183921,
+    "top_garment_group": "Jersey Fancy",
+    "top_garment_group_share": 0.1626890112231145
+  },
+  "seasonality": {
+    "definition": {
+      "Spring": "March-May",
+      "Summer": "June-August",
+      "Autumn": "September-November",
+      "Winter": "December-February"
+    },
+    "average_daily_transactions": {
+      "Spring": 43880.28,
+      "Summer": 50654.49,
+      "Autumn": 41257.77,
+      "Winter": 37354.91
+    },
+    "busiest_season_by_average_day": "Summer"
+  },
+  "data_quality": {
+    "transaction_missing_values": {
+      "t_dat": 0,
+      "customer_id": 0,
+      "article_id": 0,
+      "price": 0,
+      "sales_channel_id": 0
+    },
+    "article_missing_values": {
+      "product_code": 0,
+      "prod_name": 0,
+      "product_type_name": 0,
+      "garment_group_name": 0,
+      "colour_group_name": 0,
+      "detail_desc": 416
+    },
+    "transaction_rows_without_article_metadata": 0,
+    "nonpositive_prices": 0,
+    "duplicate_article_ids": 0,
+    "duplicate_transaction_note": "Exact repeated transaction rows are retained because the dataset has no transaction_id or quantity field; identical rows can represent multiple purchased units."
+  },
+  "plots": [
+    "/Users/shasharm46/Documents/Merchmix_Assignment 2/outputs/eda_plots/daily_transactions.png",
+    "/Users/shasharm46/Documents/Merchmix_Assignment 2/outputs/eda_plots/garment_group_transactions.png",
+    "/Users/shasharm46/Documents/Merchmix_Assignment 2/outputs/eda_plots/customer_purchase_frequency.png",
+    "/Users/shasharm46/Documents/Merchmix_Assignment 2/outputs/eda_plots/calendar_month_seasonality.png",
+    "/Users/shasharm46/Documents/Merchmix_Assignment 2/outputs/eda_plots/seasonal_garment_mix.png"
+  ]
+}

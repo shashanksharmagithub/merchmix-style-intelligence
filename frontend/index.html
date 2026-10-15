@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Style Intelligence</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Retail Data → ML Model → API → UI</p>
+          <h1>Next-Season Style Intelligence</h1>
+        </div>
+        <button id="refreshButton" class="iconButton" title="Refresh predictions">↻</button>
+      </header>
+
+      <section id="status" class="status" hidden></section>
+
+      <section class="layout">
+        <aside class="ranking">
+          <div class="sectionHeader">
+            <h2 id="listTitle">Top Predicted Styles</h2>
+            <span id="generatedAt"></span>
+          </div>
+          <div class="modeTabs" aria-label="View mode">
+            <button class="modeTab active" data-mode="forecast">Forecast</button>
+            <button class="modeTab" data-season="spring">Spring</button>
+            <button class="modeTab" data-season="summer">Summer</button>
+            <button class="modeTab" data-season="autumn">Autumn</button>
+            <button class="modeTab" data-season="winter">Winter</button>
+          </div>
+          <div id="styleList" class="styleList"></div>
+        </aside>
+
+        <section class="detail" id="detail">
+          <div class="emptyState">
+            <h2>Select a style</h2>
+            <p>The recommendation details will appear here after predictions are loaded.</p>
+          </div>
+        </section>
+      </section>
+
+      <section class="concepts">
+        <div class="sectionHeader">
+          <h2>Generated Concepts</h2>
+        </div>
+        <img src="/outputs/generated_concepts.png" alt="Three next-season product concepts inspired by the top predicted styles" />
+      </section>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>

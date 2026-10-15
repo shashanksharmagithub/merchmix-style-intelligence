@@ -1,0 +1,82 @@
+{
+  "concepts": [
+    {
+      "style_id": "610776",
+      "rank": 1,
+      "source_image_url": "/images/061/0610776006.jpg",
+      "source_style": "Tilly (1)",
+      "concept_name": "Botanical Gather Camp Tee",
+      "retained_elements": [
+        "off-white ground",
+        "blue, orange, teal, and green botanical palette",
+        "easy jersey-top appeal"
+      ],
+      "meaningful_changes": [
+        "boxy cropped proportion",
+        "short camp collar",
+        "asymmetric curved hem",
+        "gathered side panel and engineered floral placement"
+      ],
+      "design_direction": "Turn the successful floral basic into a boxy cropped camp-collar top with a bolder engineered botanical placement, asymmetric curved hem, and gathered side panel.",
+      "success_link": [
+        "Recent demand is a supporting local ranking signal: 6,715 recent units and 3,481 units in the latest 14 days. Replacing this group with typical development-set values lowers the predicted demand by about 5,976 units.",
+        "Historical demand is a supporting local ranking signal: 22,407 units from 14,184 customers across 84 selling days. Replacing this group with typical development-set values lowers the predicted demand by about 3,178 units.",
+        "Category-relative demand is a supporting local ranking signal: recent demand is 419.69x its garment-group median. Replacing this group with typical development-set values lowers the predicted demand by about 1,538 units."
+      ],
+      "linkage_summary": "The Botanical Gather Camp Tee carries forward the source style's off white colour and jersey basic commercial context, while changing silhouette and construction so the result reads as a new next-season product rather than a copy.",
+      "prompt": "Create the Botanical Gather Camp Tee, inspired by a successful H&M T-shirt style. Retain: off-white ground, blue, orange, teal, and green botanical palette, easy jersey-top appeal. Introduce: boxy cropped proportion, short camp collar, asymmetric curved hem, gathered side panel and engineered floral placement. Do not copy the source product. Clean catalogue lighting, full product visible, neutral background."
+    },
+    {
+      "style_id": "717490",
+      "rank": 2,
+      "source_image_url": "/images/071/0717490002.jpg",
+      "source_style": "Cat Tee.",
+      "concept_name": "Arc-Panel Jersey Tee",
+      "retained_elements": [
+        "clean white colour cue",
+        "soft jersey foundation",
+        "versatile everyday-top function"
+      ],
+      "meaningful_changes": [
+        "compact mock neckline",
+        "architectural curved front seams",
+        "tonal eyelet inserts",
+        "structured cuffs and controlled high-low hem"
+      ],
+      "design_direction": "Rebuild the plain white tee as an architectural premium jersey top with a compact mock neck, curved panel seams, tonal eyelet inserts, structured cuffs, and a controlled high-low hem.",
+      "success_link": [
+        "Recent demand is a supporting local ranking signal: 6,419 recent units and 2,684 units in the latest 14 days. Replacing this group with typical development-set values lowers the predicted demand by about 5,824 units.",
+        "Historical demand is a supporting local ranking signal: 18,226 units from 11,898 customers across 84 selling days. Replacing this group with typical development-set values lowers the predicted demand by about 3,048 units.",
+        "Category-relative demand is a supporting local ranking signal: recent demand is 401.19x its garment-group median. Replacing this group with typical development-set values lowers the predicted demand by about 1,413 units."
+      ],
+      "linkage_summary": "The Arc-Panel Jersey Tee carries forward the source style's white colour and jersey basic commercial context, while changing silhouette and construction so the result reads as a new next-season product rather than a copy.",
+      "prompt": "Create the Arc-Panel Jersey Tee, inspired by a successful H&M T-shirt style. Retain: clean white colour cue, soft jersey foundation, versatile everyday-top function. Introduce: compact mock neckline, architectural curved front seams, tonal eyelet inserts, structured cuffs and controlled high-low hem. Do not copy the source product. Clean catalogue lighting, full product visible, neutral background."
+    },
+    {
+      "style_id": "599580",
+      "rank": 3,
+      "source_image_url": "/images/059/0599580001.jpg",
+      "source_style": "Timeless Midrise Brief",
+      "concept_name": "Contour-Wrap Swimwear Brief",
+      "retained_elements": [
+        "black core colour",
+        "proven swimwear-bottom category",
+        "commercially wearable coverage"
+      ],
+      "meaningful_changes": [
+        "asymmetric high-waist wrap silhouette",
+        "sculpted diagonal waistband",
+        "mixed matte and ribbed panels",
+        "tonal topstitching and a refined side adjuster"
+      ],
+      "design_direction": "Evolve the proven black mid-rise brief into an asymmetric high-waist wrap shape with a sculpted diagonal waistband, mixed matte/ribbed panels, tonal topstitching, and one refined side adjuster.",
+      "success_link": [
+        "Recent demand is a supporting local ranking signal: 8,049 recent units and 2,434 units in the latest 14 days. Replacing this group with typical development-set values lowers the predicted demand by about 5,739 units.",
+        "Historical demand is a supporting local ranking signal: 31,118 units from 20,433 customers across 84 selling days. Replacing this group with typical development-set values lowers the predicted demand by about 3,018 units.",
+        "Category-relative demand is a supporting local ranking signal: recent demand is 365.86x its garment-group median. Replacing this group with typical development-set values lowers the predicted demand by about 1,444 units."
+      ],
+      "linkage_summary": "The Contour-Wrap Swimwear Brief carries forward the source style's black colour and swimwear commercial context, while changing silhouette and construction so the result reads as a new next-season product rather than a copy.",
+      "prompt": "Create the Contour-Wrap Swimwear Brief, inspired by a successful H&M Swimwear bottom style. Retain: black core colour, proven swimwear-bottom category, commercially wearable coverage. Introduce: asymmetric high-waist wrap silhouette, sculpted diagonal waistband, mixed matte and ribbed panels, tonal topstitching and a refined side adjuster. Do not copy the source product. Clean catalogue lighting, full product visible, neutral background."
+    }
+  ]
+}

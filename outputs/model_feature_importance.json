@@ -1,0 +1,195 @@
+{
+  "selected_model": "Two-period rolling Random Forest log-sales ranker",
+  "method": "Impurity-based importance for the selected Random Forest component(s)",
+  "caveat": "Importances are descriptive, can be shared across correlated features, can favor high-cardinality features, and are not causal.",
+  "features": [
+    {
+      "feature": "last14_units",
+      "importance": 0.60389447
+    },
+    {
+      "feature": "last14_customers",
+      "importance": 0.1290911
+    },
+    {
+      "feature": "recent_units",
+      "importance": 0.10365313
+    },
+    {
+      "feature": "recent_customers",
+      "importance": 0.03417153
+    },
+    {
+      "feature": "observed_style_age_days",
+      "importance": 0.01700735
+    },
+    {
+      "feature": "recent_units_vs_category_median",
+      "importance": 0.0087923
+    },
+    {
+      "feature": "recent_category_share",
+      "importance": 0.00630628
+    },
+    {
+      "feature": "recent_avg_price",
+      "importance": 0.00571642
+    },
+    {
+      "feature": "momentum_vs_category_median",
+      "importance": 0.00560663
+    },
+    {
+      "feature": "hist_units_per_active_day",
+      "importance": 0.00558927
+    },
+    {
+      "feature": "article_count",
+      "importance": 0.00521341
+    },
+    {
+      "feature": "hist_avg_price",
+      "importance": 0.00453663
+    },
+    {
+      "feature": "days_since_last_sale",
+      "importance": 0.00419257
+    },
+    {
+      "feature": "prior_avg_price",
+      "importance": 0.0040361
+    },
+    {
+      "feature": "department_name",
+      "importance": 0.00400739
+    },
+    {
+      "feature": "section_name",
+      "importance": 0.00380533
+    },
+    {
+      "feature": "hist_active_days",
+      "importance": 0.00377128
+    },
+    {
+      "feature": "product_type_name",
+      "importance": 0.00352511
+    },
+    {
+      "feature": "recent_active_days",
+      "importance": 0.00343714
+    },
+    {
+      "feature": "hist_customers",
+      "importance": 0.00269425
+    },
+    {
+      "feature": "hist_units",
+      "importance": 0.00261146
+    },
+    {
+      "feature": "recent_vs_prior_units",
+      "importance": 0.00259277
+    },
+    {
+      "feature": "garment_group_name",
+      "importance": 0.00256723
+    },
+    {
+      "feature": "colour_group_name",
+      "importance": 0.00244046
+    },
+    {
+      "feature": "acceleration_vs_category_median",
+      "importance": 0.00241835
+    },
+    {
+      "feature": "prior_units",
+      "importance": 0.00206472
+    },
+    {
+      "feature": "graphical_appearance_name",
+      "importance": 0.00200567
+    },
+    {
+      "feature": "last14_vs_prev14_units",
+      "importance": 0.00192021
+    },
+    {
+      "feature": "product_group_name",
+      "importance": 0.00187241
+    },
+    {
+      "feature": "prior_max_price",
+      "importance": 0.00182301
+    },
+    {
+      "feature": "perceived_colour_master_name",
+      "importance": 0.00180086
+    },
+    {
+      "feature": "index_name",
+      "importance": 0.0017651
+    },
+    {
+      "feature": "prior_customers",
+      "importance": 0.00176192
+    },
+    {
+      "feature": "prior_active_days",
+      "importance": 0.00174295
+    },
+    {
+      "feature": "recent_max_price",
+      "importance": 0.00163061
+    },
+    {
+      "feature": "hist_max_price",
+      "importance": 0.00161712
+    },
+    {
+      "feature": "customer_demand_acceleration",
+      "importance": 0.00152819
+    },
+    {
+      "feature": "last14_active_days",
+      "importance": 0.00132607
+    },
+    {
+      "feature": "prev14_units",
+      "importance": 0.00121521
+    },
+    {
+      "feature": "perceived_colour_value_name",
+      "importance": 0.00117782
+    },
+    {
+      "feature": "unit_demand_acceleration",
+      "importance": 0.00112354
+    },
+    {
+      "feature": "prev14_customers",
+      "importance": 0.00103365
+    },
+    {
+      "feature": "prev14_active_days",
+      "importance": 0.00091302
+    },
+    {
+      "feature": "prediction_month",
+      "importance": 0.0
+    },
+    {
+      "feature": "prediction_month_sin",
+      "importance": 0.0
+    },
+    {
+      "feature": "prediction_month_cos",
+      "importance": 0.0
+    },
+    {
+      "feature": "prediction_season",
+      "importance": 0.0
+    }
+  ]
+}

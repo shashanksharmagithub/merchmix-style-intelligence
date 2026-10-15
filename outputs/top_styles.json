@@ -1,0 +1,609 @@
+{
+  "styles": [
+    {
+      "rank": 1,
+      "style_id": "610776",
+      "representative_article_id": 610776006,
+      "name": "Tilly (1)",
+      "prediction_score": 1.0,
+      "predicted_units": 5981.97,
+      "top_decile_probability": 0.9777,
+      "ranking_model": "Two-period rolling Random Forest log-sales ranker",
+      "category": "T-shirt",
+      "colour": "Off White",
+      "garment_group": "Jersey Basic",
+      "sales_history": 22407,
+      "recent_sales": 6715,
+      "prior_sales": 8242,
+      "actual_holdout_sales": 4056,
+      "image_url": "/images/061/0610776006.jpg",
+      "model_explanation": [
+        "Recent demand is a supporting local ranking signal: 6,715 recent units and 3,481 units in the latest 14 days. Replacing this group with typical development-set values lowers the predicted demand by about 5,976 units.",
+        "Historical demand is a supporting local ranking signal: 22,407 units from 14,184 customers across 84 selling days. Replacing this group with typical development-set values lowers the predicted demand by about 3,178 units.",
+        "Category-relative demand is a supporting local ranking signal: recent demand is 419.69x its garment-group median. Replacing this group with typical development-set values lowers the predicted demand by about 1,538 units."
+      ],
+      "model_explanation_details": [
+        {
+          "group": "Recent demand",
+          "direction": "supports",
+          "delta_ranking_score": 5975.6219,
+          "counterfactual_ranking_score": 6.34692,
+          "features": [
+            "recent_units",
+            "recent_customers",
+            "recent_active_days",
+            "last14_units",
+            "last14_customers",
+            "last14_active_days"
+          ],
+          "observed_summary": "6,715 recent units and 3,481 units in the latest 14 days"
+        },
+        {
+          "group": "Historical demand",
+          "direction": "supports",
+          "delta_ranking_score": 3178.17252,
+          "counterfactual_ranking_score": 2803.7963,
+          "features": [
+            "article_count",
+            "hist_units",
+            "hist_customers",
+            "hist_active_days",
+            "hist_units_per_active_day"
+          ],
+          "observed_summary": "22,407 units from 14,184 customers across 84 selling days"
+        },
+        {
+          "group": "Category-relative demand",
+          "direction": "supports",
+          "delta_ranking_score": 1537.77513,
+          "counterfactual_ranking_score": 4444.19369,
+          "features": [
+            "recent_units_vs_category_median",
+            "momentum_vs_category_median",
+            "acceleration_vs_category_median",
+            "recent_category_share"
+          ],
+          "observed_summary": "recent demand is 419.69x its garment-group median"
+        }
+      ],
+      "explanation_method": "Grouped counterfactual sensitivity for the selected Two-period rolling Random Forest log-sales ranker. One feature group at a time is replaced with development-set medians/modes and the locked ranking score is recalculated. Deltas are diagnostic, non-additive, and not causal.",
+      "attributes": {
+        "product_group": "Garment Upper body",
+        "graphical_appearance": "All over pattern",
+        "department": "Jersey Basic",
+        "section": "Womens Everyday Basics"
+      },
+      "historical_performance": {
+        "feature_window": [
+          "2020-06-03",
+          "2020-08-26"
+        ],
+        "prediction_window": [
+          "2020-08-26",
+          "2020-09-22"
+        ],
+        "hist_units": 22407,
+        "hist_customers": 14184,
+        "active_days": 84,
+        "recent_vs_prior_units": 0.8147294346032516,
+        "unit_demand_acceleration": 247.0,
+        "category_relative_recent_demand": 419.6875,
+        "observed_style_age_days": 706,
+        "prediction_season": "Summer"
+      },
+      "description": "T-shirt in lightweight jersey with a rounded hem. Slightly longer at the back."
+    },
+    {
+      "rank": 2,
+      "style_id": "717490",
+      "representative_article_id": 717490002,
+      "name": "Cat Tee.",
+      "prediction_score": 0.9744,
+      "predicted_units": 5828.85,
+      "top_decile_probability": 0.9694,
+      "ranking_model": "Two-period rolling Random Forest log-sales ranker",
+      "category": "T-shirt",
+      "colour": "White",
+      "garment_group": "Jersey Basic",
+      "sales_history": 18226,
+      "recent_sales": 6419,
+      "prior_sales": 6011,
+      "actual_holdout_sales": 3205,
+      "image_url": "/images/071/0717490002.jpg",
+      "model_explanation": [
+        "Recent demand is a supporting local ranking signal: 6,419 recent units and 2,684 units in the latest 14 days. Replacing this group with typical development-set values lowers the predicted demand by about 5,824 units.",
+        "Historical demand is a supporting local ranking signal: 18,226 units from 11,898 customers across 84 selling days. Replacing this group with typical development-set values lowers the predicted demand by about 3,048 units.",
+        "Category-relative demand is a supporting local ranking signal: recent demand is 401.19x its garment-group median. Replacing this group with typical development-set values lowers the predicted demand by about 1,413 units."
+      ],
+      "model_explanation_details": [
+        {
+          "group": "Recent demand",
+          "direction": "supports",
+          "delta_ranking_score": 5824.12265,
+          "counterfactual_ranking_score": 4.73145,
+          "features": [
+            "recent_units",
+            "recent_customers",
+            "recent_active_days",
+            "last14_units",
+            "last14_customers",
+            "last14_active_days"
+          ],
+          "observed_summary": "6,419 recent units and 2,684 units in the latest 14 days"
+        },
+        {
+          "group": "Historical demand",
+          "direction": "supports",
+          "delta_ranking_score": 3047.7278,
+          "counterfactual_ranking_score": 2781.1263,
+          "features": [
+            "article_count",
+            "hist_units",
+            "hist_customers",
+            "hist_active_days",
+            "hist_units_per_active_day"
+          ],
+          "observed_summary": "18,226 units from 11,898 customers across 84 selling days"
+        },
+        {
+          "group": "Category-relative demand",
+          "direction": "supports",
+          "delta_ranking_score": 1412.63514,
+          "counterfactual_ranking_score": 4416.21896,
+          "features": [
+            "recent_units_vs_category_median",
+            "momentum_vs_category_median",
+            "acceleration_vs_category_median",
+            "recent_category_share"
+          ],
+          "observed_summary": "recent demand is 401.19x its garment-group median"
+        }
+      ],
+      "explanation_method": "Grouped counterfactual sensitivity for the selected Two-period rolling Random Forest log-sales ranker. One feature group at a time is replaced with development-set medians/modes and the locked ranking score is recalculated. Deltas are diagnostic, non-additive, and not causal.",
+      "attributes": {
+        "product_group": "Garment Upper body",
+        "graphical_appearance": "Embroidery",
+        "department": "Basic 1",
+        "section": "Divided Basics"
+      },
+      "historical_performance": {
+        "feature_window": [
+          "2020-06-03",
+          "2020-08-26"
+        ],
+        "prediction_window": [
+          "2020-08-26",
+          "2020-09-22"
+        ],
+        "hist_units": 18226,
+        "hist_customers": 11898,
+        "active_days": 84,
+        "recent_vs_prior_units": 1.0678755614706372,
+        "unit_demand_acceleration": -1051.0,
+        "category_relative_recent_demand": 401.1875,
+        "observed_style_age_days": 641,
+        "prediction_season": "Summer"
+      },
+      "description": "T-shirt in soft jersey."
+    },
+    {
+      "rank": 3,
+      "style_id": "599580",
+      "representative_article_id": 599580001,
+      "name": "Timeless Midrise Brief",
+      "prediction_score": 0.9604,
+      "predicted_units": 5744.93,
+      "top_decile_probability": 0.9748,
+      "ranking_model": "Two-period rolling Random Forest log-sales ranker",
+      "category": "Swimwear bottom",
+      "colour": "Black",
+      "garment_group": "Swimwear",
+      "sales_history": 31118,
+      "recent_sales": 8049,
+      "prior_sales": 7920,
+      "actual_holdout_sales": 1137,
+      "image_url": "/images/059/0599580001.jpg",
+      "model_explanation": [
+        "Recent demand is a supporting local ranking signal: 8,049 recent units and 2,434 units in the latest 14 days. Replacing this group with typical development-set values lowers the predicted demand by about 5,739 units.",
+        "Historical demand is a supporting local ranking signal: 31,118 units from 20,433 customers across 84 selling days. Replacing this group with typical development-set values lowers the predicted demand by about 3,018 units.",
+        "Category-relative demand is a supporting local ranking signal: recent demand is 365.86x its garment-group median. Replacing this group with typical development-set values lowers the predicted demand by about 1,444 units."
+      ],
+      "model_explanation_details": [
+        {
+          "group": "Recent demand",
+          "direction": "supports",
+          "delta_ranking_score": 5738.52401,
+          "counterfactual_ranking_score": 6.40544,
+          "features": [
+            "recent_units",
+            "recent_customers",
+            "recent_active_days",
+            "last14_units",
+            "last14_customers",
+            "last14_active_days"
+          ],
+          "observed_summary": "8,049 recent units and 2,434 units in the latest 14 days"
+        },
+        {
+          "group": "Historical demand",
+          "direction": "supports",
+          "delta_ranking_score": 3018.35262,
+          "counterfactual_ranking_score": 2726.57683,
+          "features": [
+            "article_count",
+            "hist_units",
+            "hist_customers",
+            "hist_active_days",
+            "hist_units_per_active_day"
+          ],
+          "observed_summary": "31,118 units from 20,433 customers across 84 selling days"
+        },
+        {
+          "group": "Category-relative demand",
+          "direction": "supports",
+          "delta_ranking_score": 1443.98517,
+          "counterfactual_ranking_score": 4300.94428,
+          "features": [
+            "recent_units_vs_category_median",
+            "momentum_vs_category_median",
+            "acceleration_vs_category_median",
+            "recent_category_share"
+          ],
+          "observed_summary": "recent demand is 365.86x its garment-group median"
+        }
+      ],
+      "explanation_method": "Grouped counterfactual sensitivity for the selected Two-period rolling Random Forest log-sales ranker. One feature group at a time is replaced with development-set medians/modes and the locked ranking score is recalculated. Deltas are diagnostic, non-additive, and not causal.",
+      "attributes": {
+        "product_group": "Swimwear",
+        "graphical_appearance": "All over pattern",
+        "department": "Swimwear",
+        "section": "Womens Swimwear, beachwear"
+      },
+      "historical_performance": {
+        "feature_window": [
+          "2020-06-03",
+          "2020-08-26"
+        ],
+        "prediction_window": [
+          "2020-08-26",
+          "2020-09-22"
+        ],
+        "hist_units": 31118,
+        "hist_customers": 20433,
+        "active_days": 84,
+        "recent_vs_prior_units": 1.0162878787878789,
+        "unit_demand_acceleration": -3181.0,
+        "category_relative_recent_demand": 365.8636363636364,
+        "observed_style_age_days": 706,
+        "prediction_season": "Summer"
+      },
+      "description": "Fully lined bikini bottoms with a mid waist and medium coverage at the back."
+    }
+  ],
+  "metrics": {
+    "target": "future style unit sales over the next 28-day window",
+    "style_definition": "product_code grouped as stable style_id",
+    "candidate_model_name": "Two-period rolling Random Forest log-sales ranker",
+    "selected_model_key": "rolling_regression",
+    "selection_protocol": "Model selected only from expanding-window rolling backtests before the final holdout. Selection score = mean P@3 + 0.5*mean P@10 - 0.25*SD(P@3) - 0.10*SD(P@10).",
+    "rolling_backtest": {
+      "fold_count": 6,
+      "folds": [
+        {
+          "candidates": {
+            "rolling_regression": {
+              "precision_at_3": 0.6666666666666666,
+              "precision_at_10": 0.6,
+              "mae": 34.76132509547452,
+              "rmse": 142.030140368049
+            },
+            "expanding_regression": {
+              "precision_at_3": 0.6666666666666666,
+              "precision_at_10": 0.6,
+              "mae": 34.76132509547451,
+              "rmse": 142.030140368049
+            },
+            "top_decile_classifier": {
+              "precision_at_3": 0.0,
+              "precision_at_10": 0.0
+            },
+            "blended_ranker": {
+              "precision_at_3": 0.3333333333333333,
+              "precision_at_10": 0.2
+            }
+          },
+          "baseline_recent_sales": {
+            "mae": 42.2776188530173,
+            "rmse": 150.83104799803408,
+            "precision_at_3": 0.6666666666666666,
+            "precision_at_10": 0.6
+          },
+          "fold": "backtest_03",
+          "rolling_training_snapshots": 2,
+          "expanding_training_snapshots": 2,
+          "target_start": "2020-03-11",
+          "target_end": "2020-04-07",
+          "styles_scored": 14682
+        },
+        {
+          "candidates": {
+            "rolling_regression": {
+              "precision_at_3": 0.6666666666666666,
+              "precision_at_10": 0.6,
+              "mae": 39.605977909880025,
+              "rmse": 184.36285156649993
+            },
+            "expanding_regression": {
+              "precision_at_3": 0.3333333333333333,
+              "precision_at_10": 0.5,
+              "mae": 39.17368708841555,
+              "rmse": 182.5540503734915
+            },
+            "top_decile_classifier": {
+              "precision_at_3": 0.0,
+              "precision_at_10": 0.0
+            },
+            "blended_ranker": {
+              "precision_at_3": 0.0,
+              "precision_at_10": 0.3
+            }
+          },
+          "baseline_recent_sales": {
+            "mae": 47.377418905749686,
+            "rmse": 195.44460891830101,
+            "precision_at_3": 0.6666666666666666,
+            "precision_at_10": 0.5
+          },
+          "fold": "backtest_04",
+          "rolling_training_snapshots": 2,
+          "expanding_training_snapshots": 3,
+          "target_start": "2020-04-08",
+          "target_end": "2020-05-05",
+          "styles_scored": 14366
+        },
+        {
+          "candidates": {
+            "rolling_regression": {
+              "precision_at_3": 0.6666666666666666,
+              "precision_at_10": 0.7,
+              "mae": 50.58058655820168,
+              "rmse": 214.82117232180815
+            },
+            "expanding_regression": {
+              "precision_at_3": 0.6666666666666666,
+              "precision_at_10": 0.5,
+              "mae": 49.148195507067015,
+              "rmse": 204.09179822060594
+            },
+            "top_decile_classifier": {
+              "precision_at_3": 0.0,
+              "precision_at_10": 0.0
+            },
+            "blended_ranker": {
+              "precision_at_3": 0.0,
+              "precision_at_10": 0.1
+            }
+          },
+          "baseline_recent_sales": {
+            "mae": 50.20352011494253,
+            "rmse": 175.38853727829732,
+            "precision_at_3": 0.6666666666666666,
+            "precision_at_10": 0.7
+          },
+          "fold": "backtest_05",
+          "rolling_training_snapshots": 2,
+          "expanding_training_snapshots": 4,
+          "target_start": "2020-05-06",
+          "target_end": "2020-06-02",
+          "styles_scored": 13920
+        },
+        {
+          "candidates": {
+            "rolling_regression": {
+              "precision_at_3": 0.6666666666666666,
+              "precision_at_10": 0.7,
+              "mae": 53.658018281049586,
+              "rmse": 199.1206088707563
+            },
+            "expanding_regression": {
+              "precision_at_3": 0.6666666666666666,
+              "precision_at_10": 0.7,
+              "mae": 52.87427057115562,
+              "rmse": 198.50702620631603
+            },
+            "top_decile_classifier": {
+              "precision_at_3": 0.0,
+              "precision_at_10": 0.0
+            },
+            "blended_ranker": {
+              "precision_at_3": 0.0,
+              "precision_at_10": 0.1
+            }
+          },
+          "baseline_recent_sales": {
+            "mae": 52.91753590325019,
+            "rmse": 186.13073189970748,
+            "precision_at_3": 0.6666666666666666,
+            "precision_at_10": 0.7
+          },
+          "fold": "backtest_06",
+          "rolling_training_snapshots": 2,
+          "expanding_training_snapshots": 5,
+          "target_start": "2020-06-03",
+          "target_end": "2020-06-30",
+          "styles_scored": 13230
+        },
+        {
+          "candidates": {
+            "rolling_regression": {
+              "precision_at_3": 0.6666666666666666,
+              "precision_at_10": 0.7,
+              "mae": 69.7396082460652,
+              "rmse": 214.29570404303263
+            },
+            "expanding_regression": {
+              "precision_at_3": 0.6666666666666666,
+              "precision_at_10": 0.7,
+              "mae": 63.07301126137221,
+              "rmse": 193.64102514914012
+            },
+            "top_decile_classifier": {
+              "precision_at_3": 0.0,
+              "precision_at_10": 0.0
+            },
+            "blended_ranker": {
+              "precision_at_3": 0.0,
+              "precision_at_10": 0.3
+            }
+          },
+          "baseline_recent_sales": {
+            "mae": 60.580588235294115,
+            "rmse": 208.29635420830243,
+            "precision_at_3": 0.6666666666666666,
+            "precision_at_10": 0.6
+          },
+          "fold": "backtest_07",
+          "rolling_training_snapshots": 2,
+          "expanding_training_snapshots": 6,
+          "target_start": "2020-07-01",
+          "target_end": "2020-07-28",
+          "styles_scored": 13600
+        },
+        {
+          "candidates": {
+            "rolling_regression": {
+              "precision_at_3": 0.6666666666666666,
+              "precision_at_10": 0.8,
+              "mae": 32.65116635215839,
+              "rmse": 121.29959277071175
+            },
+            "expanding_regression": {
+              "precision_at_3": 1.0,
+              "precision_at_10": 0.8,
+              "mae": 31.335980545892124,
+              "rmse": 115.13957451055254
+            },
+            "top_decile_classifier": {
+              "precision_at_3": 0.0,
+              "precision_at_10": 0.0
+            },
+            "blended_ranker": {
+              "precision_at_3": 0.0,
+              "precision_at_10": 0.1
+            }
+          },
+          "baseline_recent_sales": {
+            "mae": 41.55222293129121,
+            "rmse": 129.0577728880391,
+            "precision_at_3": 0.6666666666666666,
+            "precision_at_10": 0.8
+          },
+          "fold": "backtest_08",
+          "rolling_training_snapshots": 2,
+          "expanding_training_snapshots": 7,
+          "target_start": "2020-07-29",
+          "target_end": "2020-08-25",
+          "styles_scored": 14103
+        }
+      ],
+      "candidate_summary": {
+        "rolling_regression": {
+          "model_name": "Two-period rolling Random Forest log-sales ranker",
+          "mean_precision_at_3": 0.6666666666666666,
+          "std_precision_at_3": 0.0,
+          "mean_precision_at_10": 0.6833333333333332,
+          "std_precision_at_10": 0.06871842709362769,
+          "ranking_stability": 0.9656407864531862,
+          "selection_score": 1.0014614906239705,
+          "mean_mae": 46.83278040713824,
+          "mean_rmse": 179.32167832347628
+        },
+        "expanding_regression": {
+          "model_name": "Expanding-window Random Forest log-sales ranker",
+          "mean_precision_at_3": 0.6666666666666666,
+          "std_precision_at_3": 0.19245008972987526,
+          "mean_precision_at_10": 0.6333333333333333,
+          "std_precision_at_10": 0.11055415967851334,
+          "ranking_stability": 0.8484978752958057,
+          "selection_score": 0.9241653949330132,
+          "mean_mae": 45.061078344896174,
+          "mean_rmse": 172.6606024713592
+        },
+        "top_decile_classifier": {
+          "model_name": "Random Forest top-decile classifier",
+          "mean_precision_at_3": 0.0,
+          "std_precision_at_3": 0.0,
+          "mean_precision_at_10": 0.0,
+          "std_precision_at_10": 0.0,
+          "ranking_stability": 1.0,
+          "selection_score": 0.0
+        },
+        "blended_ranker": {
+          "model_name": "55% rolling-regression rank + 45% top-decile probability rank",
+          "mean_precision_at_3": 0.05555555555555555,
+          "std_precision_at_3": 0.12422599874998833,
+          "mean_precision_at_10": 0.18333333333333335,
+          "std_precision_at_10": 0.08975274678557506,
+          "ranking_stability": 0.8930106272322182,
+          "selection_score": 0.10719044785616764
+        }
+      },
+      "baseline_recent_sales": {
+        "mean_mae": 49.15148415725751,
+        "mean_rmse": 174.19150886511355,
+        "mean_precision_at_3": 0.6666666666666666,
+        "std_precision_at_3": 0.0,
+        "mean_precision_at_10": 0.65,
+        "std_precision_at_10": 0.09574271077563382
+      }
+    },
+    "candidate_model": {
+      "mean_precision_at_3": 0.6666666666666666,
+      "std_precision_at_3": 0.0,
+      "mean_precision_at_10": 0.6833333333333332,
+      "std_precision_at_10": 0.06871842709362769,
+      "ranking_stability": 0.9656407864531862,
+      "regression_backbone_mean_mae": 46.83278040713824,
+      "regression_backbone_mean_rmse": 179.32167832347628
+    },
+    "baseline_recent_sales": {
+      "mean_mae": 49.15148415725751,
+      "mean_rmse": 174.19150886511355,
+      "mean_precision_at_3": 0.6666666666666666,
+      "std_precision_at_3": 0.0,
+      "mean_precision_at_10": 0.65,
+      "std_precision_at_10": 0.09574271077563382
+    },
+    "final_holdout": {
+      "period": {
+        "feature_start": "2020-06-03",
+        "feature_end": "2020-08-26",
+        "target_start": "2020-08-26",
+        "target_end": "2020-09-22"
+      },
+      "candidate_model": {
+        "precision_at_3": 0.0,
+        "precision_at_10": 0.2,
+        "mae": 43.36338703806178,
+        "rmse": 199.40118439692566
+      },
+      "baseline_recent_sales": {
+        "mae": 64.32161467379976,
+        "rmse": 229.01207796918314,
+        "precision_at_3": 0.0,
+        "precision_at_10": 0.2
+      },
+      "note": "The final holdout was evaluated once after model selection and was not used to choose features, objective, blend weights, or hyperparameters. MAE/RMSE refer to the regression unit forecast even when the selected ranking objective differs."
+    },
+    "limitations": [
+      "No reliable stock-on-hand or availability history is present, so sales may mix customer demand with stock constraints.",
+      "Price exists at transaction level but explicit markdown, campaign, and promotion metadata is unavailable.",
+      "Observed launch age starts at the first sale in this dataset, not necessarily the true product launch date.",
+      "Only one untouched 28-day final holdout exists; rolling backtests reduce but do not eliminate temporal uncertainty.",
+      "Concept image generation depends on catalogue-image availability for selected styles."
+    ],
+    "explanation_method": "Grouped counterfactual sensitivity for the selected Two-period rolling Random Forest log-sales ranker. One feature group at a time is replaced with development-set medians/modes and the locked ranking score is recalculated. Deltas are diagnostic, non-additive, and not causal."
+  },
+  "generated_at": "2026-10-14T18:36:25.708769+00:00",
+  "data_note": "Rankings use historical transactions only. The final holdout is reported honestly but was not used for model selection; stock constraints remain unknown."
+}
